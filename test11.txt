@@ -1,0 +1,40 @@
+package asha;
+
+public class test11 {
+	public static void main(String args[])
+	{
+		int a=10, b=5, c=5;
+		int p,q;
+		try
+		{
+			p=a/(b-c);
+					System.out.println("divide by zero error");
+		
+		}
+		catch (Arthmetic Exception e)
+		{
+			System.out.println("divide by zero error");
+		}
+	}
+
+}
+
+
+
+package asha;
+
+public class override 
+{
+	int x;
+	override(int x)
+	{
+		this.x=x;
+		
+	}
+	void display()
+	{
+		System.out.println("super x="+x);
+	}
+	
+}
+
